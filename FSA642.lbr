@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="UMLP-24">
+<wire x1="-1.7" y1="1.25" x2="1.7" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.25" x2="1.7" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.25" x2="-1.75" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1.25" x2="-1.75" y2="1.25" width="0.127" layer="21"/>
+<smd name="CLKP" x="-1" y="-1.07" dx="0.23" dy="0.66" layer="1" rot="R180"/>
+<smd name="CLKN" x="-0.6" y="-1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="D1P" x="-0.2" y="-1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="D1N" x="0.2" y="-1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="D2P" x="0.6" y="-1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="D2N" x="1" y="-1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="NC_7" x="1.57" y="-1" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="/OE" x="1.57" y="-0.6" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="GND" x="1.57" y="-0.2" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="VCC" x="1.57" y="0.2" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="SEL" x="1.57" y="0.6" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="DA2N" x="1.57" y="1" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="DA2P" x="1" y="1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="DA1N" x="0.6" y="1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="DA1P" x="0.2" y="1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="CLKAN" x="-0.2" y="1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="CLKAP" x="-0.6" y="1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="DB2N" x="-1" y="1.12" dx="0.23" dy="0.56" layer="1" rot="R180"/>
+<smd name="DB2P" x="-1.57" y="1" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="DB1P" x="-1.57" y="0.6" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="DB1N" x="-1.57" y="0.2" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="CLKBP" x="-1.57" y="-0.2" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="CLKBN" x="-1.57" y="-0.6" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<smd name="NC_24" x="-1.57" y="-1" dx="0.23" dy="0.56" layer="1" rot="R270"/>
+<text x="-0.45" y="-0.2" size="0.4064" layer="25">642</text>
+<wire x1="-1.45" y1="-0.8" x2="-0.9" y2="-0.8" width="0.127" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FSA642">
+<wire x1="-12.7" y1="22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-22.86" x2="-12.7" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
+<pin name="CLKP" x="-17.78" y="12.7" length="middle"/>
+<pin name="CLKN" x="-17.78" y="10.16" length="middle"/>
+<pin name="D1P" x="-17.78" y="5.08" length="middle"/>
+<pin name="D1N" x="-17.78" y="2.54" length="middle"/>
+<pin name="D2P" x="-17.78" y="-2.54" length="middle"/>
+<pin name="D2N" x="-17.78" y="-5.08" length="middle"/>
+<pin name="/OE" x="-17.78" y="-15.24" length="middle"/>
+<pin name="SEL" x="-17.78" y="-17.78" length="middle"/>
+<pin name="VCC" x="0" y="27.94" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-27.94" length="middle" rot="R90"/>
+<pin name="DB2N" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="DB2P" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="DB1N" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="DB1P" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="CLKBN" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="CLKBP" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="DA2N" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="DA2P" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="DA1N" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="DA1P" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="CLKAN" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="CLKAP" x="17.78" y="17.78" length="middle" rot="R180"/>
+<text x="-5.08" y="0" size="1.778" layer="95">FSA642</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FSA642">
+<gates>
+<gate name="G$1" symbol="FSA642" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UMLP-24">
+<connects>
+<connect gate="G$1" pin="/OE" pad="/OE"/>
+<connect gate="G$1" pin="CLKAN" pad="CLKAN"/>
+<connect gate="G$1" pin="CLKAP" pad="CLKAP"/>
+<connect gate="G$1" pin="CLKBN" pad="CLKBN"/>
+<connect gate="G$1" pin="CLKBP" pad="CLKBP"/>
+<connect gate="G$1" pin="CLKN" pad="CLKN"/>
+<connect gate="G$1" pin="CLKP" pad="CLKP"/>
+<connect gate="G$1" pin="D1N" pad="D1N"/>
+<connect gate="G$1" pin="D1P" pad="D1P"/>
+<connect gate="G$1" pin="D2N" pad="D2N"/>
+<connect gate="G$1" pin="D2P" pad="D2P"/>
+<connect gate="G$1" pin="DA1N" pad="DA1N"/>
+<connect gate="G$1" pin="DA1P" pad="DA1P"/>
+<connect gate="G$1" pin="DA2N" pad="DA2N"/>
+<connect gate="G$1" pin="DA2P" pad="DA2P"/>
+<connect gate="G$1" pin="DB1N" pad="DB1N"/>
+<connect gate="G$1" pin="DB1P" pad="DB1P"/>
+<connect gate="G$1" pin="DB2N" pad="DB2N"/>
+<connect gate="G$1" pin="DB2P" pad="DB2P"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SEL" pad="SEL"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
